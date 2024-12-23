@@ -37,7 +37,7 @@ export default class EnemyController {
 
         this.createEnemies();
 
-        this.deathSound = new Audio("assets/EnemyDeath.wav");
+        this.deathSound = new Audio("./assets/EnemyDeath.wav");
         this.deathSound.volume = 0.5;
     }
     draw(ctx) {

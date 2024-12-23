@@ -16,9 +16,9 @@ function fitToContainer(canvas){
 }
 
 const background = new Image();
-background.src = "assets/background.png";
+background.src = "./assets/background.png";
 
-const deathSound = new Audio("assets/Death.wav");
+const deathSound = new Audio("./assets/Death.wav");
 deathSound.volume = 0.8;
 
 let playerBulletController = new BulletController(canvas, 10, "#3b79db", true);
